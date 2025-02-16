@@ -36,7 +36,7 @@ html, body {
     border-radius: 40px 10px 40px 10px;
     width: 1450px;
     height: 200px;
-    background-image: url(Images/powerfit.png);
+    background-image: url("/Images/powerfit.png");
     box-shadow: 0 5px 10px 0 rgb(214, 45, 45);
 }
 
