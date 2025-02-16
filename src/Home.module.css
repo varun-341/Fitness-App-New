@@ -3,7 +3,7 @@
     padding: 0;
     width: 100%;
     height: 100vh;
-    background-image: url("Images/bgimageintro1.jpg");
+    background-image: url("/bgimageintro1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
