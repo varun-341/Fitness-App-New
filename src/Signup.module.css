@@ -1,20 +1,21 @@
-#container{
+#logconatiner{
     width: 100%;
     height: 100vh;
-    background-image: url(Images/login.png);
+    background-image: url("/Images/login.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
 }
 
-#logconatiner{
+#container{
     width: 100%;
     height: 100vh;
-    background-image: url("/signup.png");
+    background-image: url("/Images/signup.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 

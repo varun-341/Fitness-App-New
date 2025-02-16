@@ -14,7 +14,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-image: url("/bgimage.png");
+    background-image: url("Images/bgimage.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
