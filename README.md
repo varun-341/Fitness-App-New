@@ -1,3 +1,4 @@
+ HEAD
 # PowerFit - Fitness App 💪🔥
 
 PowerFit is a modern fitness tracking app built with **React + Vite**. It includes a **BMI Calculator, Workout Tracker, and Firebase Authentication** to help users stay on top of their fitness goals.
@@ -18,3 +19,6 @@ PowerFit is a modern fitness tracking app built with **React + Vite**. It includ
    ```bash
    git clone https://github.com/yourusername/fitness-app.git
    cd fitness-app
+
+# Fitness-App-New
+d0298eacd0bd6bb74ead695b499d2a894d818d98
