@@ -1,0 +1,206 @@
+/* Enable scrolling on the whole page */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto; /* Enables scrolling */
+    scroll-behavior: smooth;
+    overflow: auto;
+}
+.bar{
+    background-color: rgb(93, 99, 209, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: solid 2px;
+    border: none;
+    padding: 3px;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 8px 1px black;
+}
+.butt{
+    color: yellow;
+}
+.banner{
+    position: relative;
+    left: 50%;
+    top: 60px;
+    transform: translate(-50%);
+    border-radius: 40px 10px 40px 10px;
+    width: 1450px;
+    height: 200px;
+    background-image: url(Images/powerfit.png);
+    box-shadow: 0 5px 10px 0 rgb(214, 45, 45);
+}
+
+.page{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 830vh;
+}
+
+
+.log{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 50%;
+    
+    box-shadow: 0 0 5px 4px yellow;
+    margin-right: 10px;
+}
+.input{
+    width: 500px;
+    height: 35px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.cards{
+    position: relative;
+    top: 75px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 100%;
+    
+}
+.card{
+    padding: 8px;
+    width: 105px;
+    height: 215px;
+    border: solid 1px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    box-shadow: 0 5px 10px 0px black;
+    background-color: rgb(62, 44, 221);
+    cursor: pointer;
+}
+.card:hover{
+   transform: scale(1.1);
+   box-shadow: 0 0 10px 1px blue;
+   transition: 0.5s ease;
+   background-color: rgb(82, 91, 52);
+   color: white;
+   
+}
+.images{
+    padding: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.name{
+    margin-top: 5px;
+    font-weight: bold;
+    font-family: Segoe Print;
+    font-size: 13px;
+}
+.select{
+position: relative;
+top: 70px;
+text-align: center;
+font-family: Segoe Print;
+font-weight: bold;
+}
+
+.workouts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.subcards{
+    position: relative;
+    top: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+    background-color: rgb(226, 210, 115);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    width: 90%;
+    border: solid 1px;
+    border: none;
+    box-shadow: 0 0 12px 4px black;
+}
+.subcards > *{
+    flex: 1;
+}
+.subcards:hover{
+    box-shadow: 0 0 15px 3px red;
+    
+}
+.mainimages{
+    border-radius: 14px;
+    width: 300px;
+    box-shadow: 3px 0 10px 1px #149ca3;
+}
+.workoutname{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 20px;
+    margin: 0;
+    font-size: 20px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+}
+.details{
+    width: 200px;
+    color: rgba(48, 1, 236, 0.996);
+    font-size: 38px;
+    padding-left: 8px;
+}
+.instructions{
+    display: flex;
+    flex-direction: column;
+    color: rgb(10, 7, 10);
+    padding: 15px;
+    overflow: hidden;
+}
+.instructions ul{
+    margin-top: 0;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.indetails{
+    position: relative;
+    top: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(104, 30, 178);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.arrow{
+    cursor: pointer;
+    position: fixed;
+    left: 94%;
+    top: 58%;
+    transform: translate( 80%, 650%);
+    z-index: 2;
+}
